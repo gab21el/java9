@@ -17,6 +17,8 @@ public class Main {
                meuCarro[i].modelo = scanner.nextLine();
                System.out.println("Digite o ano do carro: ");
                meuCarro[i].ano = Integer.parseInt(scanner.nextLine());
+               System.out.println("Digite o valor do carro: ");
+               meuCarro[i].valor = Integer.parseInt(scanner.nextLine());
                tot++;
 
                System.out.println("Deseja inserir mais um? 1 (SIM) / 0 (NÃO)");
